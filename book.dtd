@@ -1,6 +1,7 @@
 <!ELEMENT bookdetails(books+)>
-<!ELEMENT books(title,author,edition,price)>
+<!ELEMENT books(title,author,edition,price,name)>
 <!ELEMENT title(#PCDATA)>
 <!ELEMENT author(#PCDATA)>
 <!ELEMENT edition(#PCDATA)>
 <!ELEMENT price(#PCDATA)>
+<!ELEMENT name(#PCDATA)>
